@@ -1,0 +1,24 @@
+node
+{
+
+    stage('scm')
+     {
+     
+       git 'https://github.com/spring-petclinic/spring-framework-petclinic.git'
+      }
+     stage('packaging')
+     {
+     
+       sh 'mvn package'
+      }
+     stage('archiving artifacts')
+    {
+       archive 'target/*.jar
+      }
+      stage('junit testing')
+     {
+       junit './target/surefire-reports'
+      
+      }
+  }
+
