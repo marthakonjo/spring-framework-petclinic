@@ -1,1 +1,1 @@
-added for second time
+GOD IS ALWAYS GREAT
