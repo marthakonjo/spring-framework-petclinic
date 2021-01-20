@@ -1,1 +1,1 @@
-GOD IS ALWAYS GREAT
+god help me out
